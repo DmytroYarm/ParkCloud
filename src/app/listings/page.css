@@ -1,0 +1,47 @@
+.sidebar {
+    background: linear-gradient(to bottom, #60A5FA, #1E3A8A);
+    width: 25%;
+    padding: 1rem;
+    overflow-y: scroll;
+    height: 100vh;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
+    font-family: 'Roboto', sans-serif; 
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+.map {
+    width: 75%;
+}
+
+
+.listing-card {
+    padding: 0.75rem;
+    margin-bottom: 0.1rem;
+    background-color: rgba(255, 255, 255, 0.022); /* Немного прозрачный белый фон */
+    border-radius: 3px; /* Скругленные углы */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05); /* Легкая тень */
+    transition: background-color 0.3s ease; /* Плавный эффект при наведении */
+}
+
+.listing-card:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Более светлый фон при наведении */
+    cursor: pointer; /* Указатель мыши при наведении */
+}
+
+.listing-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.listing-card p {
+    margin-bottom: 0.25rem;
+    font-size: 0.9rem;
+}
+
+.listing-card .price {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff; /* Например, золотой цвет для цены */
+}
