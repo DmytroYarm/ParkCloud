@@ -27,7 +27,7 @@ const activeIcon = L.icon({
 
 interface MapProps {
     listings: Listing[];
-    hoveredId?: string | number | null; // Добавьте поддержку number, если ID может быть числом
+    hoveredId?: string | number | null;
 }
 
 interface FlyToMarkerProps {
